@@ -1,0 +1,23 @@
+{
+    "cmake.sourceDirectory": "${workspaceFolder}/linux",
+    "dartimportsorter.matchingRules": [
+        {
+            "label": "Flutter",
+            "regex": "^package:flutter.*$",
+            "order": 1,
+            "regexFlags": ["m"]
+        },
+        {
+            "label": "Dart",
+            "regex": "^dart:.*$",
+            "order": 2,
+            "regexFlags": ["m"]
+        },
+        {
+            "label": "Everything else",
+            "regex": ".*",
+            "order": 3,
+            "regexFlags": ["m"]
+        }
+    ]
+}

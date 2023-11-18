@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
       builder: (_, ThemeMode mode, __) {
         return MaterialApp(
           title: "GBoardist",
-          initialRoute: '/login',
+          initialRoute: '/tmp',
           routes: routes,
           debugShowCheckedModeBanner: false,
           theme: TTheme.lightTheme,
